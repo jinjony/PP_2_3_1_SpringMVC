@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name=" demo231" />
-        <module name="PP_2_3_1_SpringMVC" />
+        <module name="PP_2_3_1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PP_2_3_1" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
